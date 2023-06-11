@@ -1,0 +1,145 @@
+.header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(99, 230, 212, 0.904);
+}
+    
+
+.logo{
+    color: rgb(124, 255, 222);
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+}
+    
+.icon{
+    font-size: 35px;
+    cursor: pointer;
+    color: rgb(255, 248, 248);
+    transform: translateY(5px);
+
+&:hover {
+    color: rgb(0, 0, 0);
+} 
+}
+
+
+   
+
+@media screen and (max-width:768px) {
+    
+.navBar {
+    position: absolute;
+    background: linear-gradient( #0e191a, #d1e1d7);
+    height: max-content;
+    width: 70vw;
+    border-radius: 1rem;
+    top: -25rem;
+    left: 50%;
+    padding: 0;
+    transform: translate(-50%);
+    z-index: 2000;
+    box-shadow: 0 2px 4px rgba(2,15,29, 0.904);
+    transition: .5s ease-in-out;
+}
+.nav_lists{
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    left: 20%;
+    margin: auto;
+    padding: .5rem 0;
+}
+           
+.nav_item {
+    padding: 3.5rem 5;
+}                
+
+.nav_link {
+    color: rgb(255, 254, 254);
+    font-size: .9rem;
+    font-weight: 600;
+                    
+&:hover{
+    color: rgb(0, 0, 0);
+}
+}     
+}            
+
+.btn{
+    background: #f5faf7;
+}
+
+.closeNavbar{
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    color: rgb(243, 238, 238);
+           
+&:hover{
+    color: rgb(0, 0, 0);
+}
+}      
+              
+    
+
+.activeNavbar {
+    top: 7rem;
+}
+
+
+@media  screen and (min-width: 769px) {
+    
+.toggleNavbar .closeNavbar{
+    display: none;
+}
+
+.header{
+padding: 1.5rem 2rem;
+}
+        
+
+
+.nav_lists{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}  
+                
+
+                    
+.nav_link{
+    color: rgb(255, 255, 255);
+    padding: 0 0.45rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+
+&:hover{
+    color: rgb(85, 80, 80);
+    }
+}
+              
+
+.btn{
+    margin-left: 1rem;
+a{
+    color: #47d4ba;
+}
+}
+}            
+        
+    
+
+
+@media  screen and (min-width: 1240px) {
+    
+.header{
+     padding: 1rem 6.5rem;
+}
+}

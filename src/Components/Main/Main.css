@@ -1,0 +1,120 @@
+.main_container{
+    
+    background: linear-gradient(306deg, #0e191a, #d1e1d7);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 14s ease infinite;
+    -moz-animation: AnimationName 14s ease infinite;
+    animation: AnimationName 14s ease infinite;}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:5% 0%}
+    50%{background-position:96% 100%}
+    100%{background-position:5% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:5% 0%}
+    50%{background-position:96% 100%}
+    100%{background-position:5% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:5% 0%}
+    50%{background-position:96% 100%}
+    100%{background-position:5% 0%}
+}
+    
+
+.sec_title{
+.title{
+    position: relative;
+    width: max-content;
+    font-size: 4vw;
+    color: rgb(255, 255, 255);
+    margin-top: 0.5rem;
+    box-shadow: 0 6px 7px rgba(96, 163, 235, 0.904);
+    font-weight: 500;
+    text-transform: uppercase;
+    left: 18%;
+}}
+
+
+.single_distination{
+    height: 100%;
+    font-weight: 600;
+    row-gap: 10px;
+    padding: 1.5rem;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: 0 6px 7px rgba(36, 39, 36, 0.904);
+    overflow: hidden;
+
+&:hover {
+        background: (rgb(66, 63, 63));
+        transition: .3s ease;
+    }
+}
+
+.image_div{
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .2s ease;
+
+&:hover{
+    transform: scale(1.3);
+}
+}
+
+.card_info{
+    padding: 1rem;
+}
+.dest_title{
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+}
+.continent{
+    gap: 1.5rem;
+}
+.fees{
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-top: 1.5px solid rgb(71, 204, 245);
+    border-bottom: 1px solid #5debd8;
+}
+.grade{
+    color: #f1f8f1;
+    max-width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+small{
+    background-color: rgb(255, 255, 255);
+    border-radius: 2.5rem;
+    padding: 1px -10px;
+    color: #fdfdfd;
+    font-size: 15px;
+    cursor: pointer;
+    &:hover{
+        background: #ffb4b4;
+    }
+}
+.price{
+    font-size: 1.6rem;
+}
+.dest{
+    color: #f1f8f1;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.btn{
+    margin-top: 1rem;
+    color: #88978a;
+    font-weight: 600;
+    justify-content: space-between;
+    
+}

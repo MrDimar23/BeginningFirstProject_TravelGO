@@ -1,0 +1,66 @@
+.footer{
+    width: 100%;
+    background: linear-gradient(306deg, #0e191a, #d1e1d7);
+    position: relative;
+    padding: 2rem 0;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.contact_div{
+    width: 100%;
+    position: relative;
+    font-size: 3vw;
+    color: rgb(255, 255, 255);
+    margin: 1rem 0;
+    box-shadow: 0 6px 7px rgba(2,15,29, 0.904);
+    font-weight: 600;
+    text-transform: uppercase;
+        
+    
+}
+
+
+
+.text{
+    color: #0e191a;
+    font-size: 3.2vw;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.icon_check{
+    font-size: 1.5rem;
+    background: rgb(153, 142, 142);
+    border-radius: 2rem;
+}
+.footer_soc{
+    margin-top: 1rem;
+}
+.icons{
+    font-size: 25px;
+
+    &:hover{
+        color: rgb(51, 50, 47);
+    }
+}
+
+
+
+.footerlist{
+    font-size: 15px;
+    transition: .3s ease-in-out;
+
+    &:hover{
+        color: rgb(0, 0, 0);
+        transform: translateX(7px);
+    }
+}
+
+    
+
+   
